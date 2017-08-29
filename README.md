@@ -37,17 +37,12 @@ The app is now accessible at <http://localhost:3000>
 
 ### Containers
 
-<<<<<<< HEAD
 [main](./src/containers/main)
-=======
-[main](../src/containers/main)
->>>>>>> 02deda603e89e2590991bb4398853cd0155c6898
 
 The app has only one container which access the store and dispatch the actions
 
 ### Components
 
-<<<<<<< HEAD
 [profileList](./src/components/profileList)
 
 This component is called in the main container and it renders a profile component for each `stock`
@@ -63,23 +58,6 @@ Displays `stock` details received from [profile](./src/components/profile/)
 ## Tests
 
 All of the tests are located under [\_\_test\_\_](./src/__test__/) and its mocked data located under [\_\_mocks\_\_](./src/**mocks**)
-=======
-[profileList](../src/components/profileList)
-
-This component is called in the main container and it renders a profile component for each `stock`
-
-[profile](../src/components/profile)
-
-Displays the stock information and renders the [profileDetails](../src/components/profileDetails/) with more details
-
-[profileDetails](../src/components/profileDetails)
-
-Displays `stock` details received from [profile](../src/components/profile/)
-
-## Tests
-
-All of the tests are located under [\_\_test\_\_](../src/__test__/) and its mocked data located under [\_\_mocks\_\_](../src/**mocks**)
->>>>>>> 02deda603e89e2590991bb4398853cd0155c6898
 
 To run the tests
 
