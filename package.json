@@ -5,17 +5,14 @@
   "dependencies": {
     "material-ui": "next",
     "material-ui-icons": "^1.0.0-beta.5",
-    "node-fetch": "next",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-image-resizer": "^1.2.0",
     "react-redux": "^5.0.6",
     "react-scripts": "1.0.11",
-    "recompose": "^0.25.0",
     "redux": "^3.7.2",
     "redux-saga": "^0.15.6",
-    "request": "^2.81.0",
     "whatwg-fetch": "^2.0.3"
   },
   "scripts": {
