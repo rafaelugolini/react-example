@@ -1,6 +1,6 @@
 {
-  "name": "dogs",
-  "version": "0.1.0",
+  "name": "react-example",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "material-ui": "next",
