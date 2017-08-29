@@ -37,27 +37,27 @@ The app is now accessible at <http://localhost:3000>
 
 ### Containers
 
-[main](../blob/master/main)
+[main](./src/containers/main)
 
 The app has only one container which access the store and dispatch the actions
 
 ### Components
 
-[profileList](../blob/master/profileList)
+[profileList](./src/components/profileList)
 
 This component is called in the main container and it renders a profile component for each `stock`
 
-[profile](../blob/master/profile)
+[profile](./src/components/profile)
 
-Displays the stock information and renders the [profileDetails](../blob/master/profileDetails/) with more details
+Displays the stock information and renders the [profileDetails](./src/components/profileDetails/) with more details
 
-[profileDetails](../blob/master/profileDetails)
+[profileDetails](./src/components/profileDetails)
 
-Displays `stock` details received from [profile](../blob/master/profile/)
+Displays `stock` details received from [profile](./src/components/profile/)
 
 ## Tests
 
-All of the tests are located under [\_\_test\_\_](../blob/master/__test__/) and its mocked data located under [\_\_mocks\_\_](../blob/master/**mocks**)
+All of the tests are located under [\_\_test\_\_](./src/__test__/) and its mocked data located under [\_\_mocks\_\_](./src/**mocks**)
 
 To run the tests
 
