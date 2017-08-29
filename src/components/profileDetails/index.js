@@ -10,17 +10,24 @@ const styles = {
   },
 };
 
-const ProfileDetails = ({ classes, latestTime }) =>
-  (<List>
+const getTime = (time) => {
+  const date = new Date(time).toLocaleString();
+  if (date === 'Invalid Date') {
+    return time;
+  }
+  return date;
+};
+
+const ProfileDetails = ({ classes, latestTime }) => (
+  <List>
     <ListItem>
       <ListItemText className={classes.text} primary={'Last updated'} />
       <ListItemSecondaryAction>
-        <p>
-          {new Date(latestTime).toLocaleString()}
-        </p>
+        <p>{getTime(latestTime)}</p>
       </ListItemSecondaryAction>
     </ListItem>
-  </List>);
+  </List>
+);
 ProfileDetails.propTypes = {
   classes: PropTypes.object.isRequired,
   latestTime: PropTypes.string.isRequired,
